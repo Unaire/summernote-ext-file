@@ -22,14 +22,14 @@ A plugin to add file gestion on <a href="https://github.com/summernote/summernot
 
 ### 2. Initialisation
 ```javascript
-    $(document).ready(function () {
-            $('#summernote').summernote({
-                height : 300,
-                toolbar: [
-                  ['file', ['fileNew', 'fileOpen', 'fileSave']],
-                ],
-            });
-        });
+$(document).ready(function () {
+    $('#summernote').summernote({
+        height : 300,
+        toolbar: [
+          ['file', ['fileNew', 'fileOpen', 'fileSave']],
+        ],
+    });
+});
 ```
 
 ## Access by API
