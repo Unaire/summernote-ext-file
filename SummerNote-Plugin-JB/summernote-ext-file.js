@@ -12,7 +12,7 @@
 }(function ($) {
 
     $.extend(true, $.summernote.lang, {
-        'en-US': {
+        'en-US': { 
             file: {
                 toolNew: 'New document',
                 toolOpen: 'Open',
