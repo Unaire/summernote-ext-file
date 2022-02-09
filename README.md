@@ -3,10 +3,11 @@ A plugin to add file gestion on <a href="https://github.com/summernote/summernot
 
 <img src="./res/view.png">
 
-<h3>Installation</h3>
+## Installation
 
-<b>1. Include JS</b>
-<pre>
+### 1. Include JS
+
+```html
 <!-- Dependency -->
 <script src="./summernote-ext-file/vendor/docxtemplater.min.js"></script>
 <script src="./summernote-ext-file/vendor/pizzip.js"></script>
@@ -17,10 +18,10 @@ A plugin to add file gestion on <a href="https://github.com/summernote/summernot
 <script src="./summernote-ext-file/vendor/jspdf.min.js"></script>
 <!-- Main file -->
 <script src="./summernote-ext-file/summernote-ext-file.js"></script>
-</pre>
+```
 
-<b>2. Initialisation</b>
-<pre>
+### 2. Initialisation
+```javascript
     $(document).ready(function () {
             $('#summernote').summernote({
                 height : 300,
@@ -29,17 +30,21 @@ A plugin to add file gestion on <a href="https://github.com/summernote/summernot
                 ],
             });
         });
-</pre>
+```
 
-<h3>Access by API</h3>
+## Access by API
 
 You can access to this functionalities through API : 
 
-<b>New file</b>
-<pre>$('#summernote').summernote('file.fileNew');</pre>
+### New file
+```javascript
+$('#summernote').summernote('file.fileNew');
+```
 
-<b>Open file</b>
-<pre>$('#summernote').summernote('file.fileOpen', '%TYPE%' );</pre>
+### Open file
+```javascript
+$('#summernote').summernote('file.fileOpen', '%TYPE%' );
+```
 
 %TYPE% can be : 
 <ul>
@@ -47,8 +52,10 @@ You can access to this functionalities through API :
   <li>xml : xml file (.smn)</li>
 </ul>
 
-<b>Save file</b>
-<pre>$('#summernote').summernote('file.fileSave', '%TYPE%' );</pre>
+### Save file
+```javascript
+$('#summernote').summernote('file.fileSave', '%TYPE%' );
+```
 
 %TYPE% can be : 
 <ul>
@@ -58,16 +65,15 @@ You can access to this functionalities through API :
   <li>pdf : PDF file (.pdf)</li>
 </ul>
 
-<hr>
-<h3>Tested with</h3>
+
+## Dependency and tested with
 <ul>
   <li>Summernote : 0.8.18</li>
   <li>JQuery : 3.6.0</li>
   <li>BootStrap : 5.1.1</li>
 </ul>
 
-<hr>
-<h3>Greetings</h3>
+## Greetings
 <ul>
   <li><a href="https://github.com/open-xml-templating/docxtemplater">docxtemplater</a> : library to generate docx/pptx documents</li>
   <li><a href="https://github.com/open-xml-templating/pizzip">pizzip</a> : synchronous Zip library</li>
