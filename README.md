@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 ## Access by API
 
-You can access to this functionalities through API : 
+You can access to these functionalities through API : 
 
 ### New file
 ```javascript
