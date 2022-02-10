@@ -1,7 +1,11 @@
 # summernote-ext-file
-A plugin to add file gestion on <a href="https://github.com/summernote/summernote/">Summernote</a> WYSIWYG editor.
 
 <img src="./res/view.png">
+
+A plugin to add file gestion on <a href="https://github.com/summernote/summernote/">Summernote</a> WYSIWYG editor :
+- Creating a new document
+- Importing/Opening a text or xml files
+- Exporting/Saving to text, xml, Word (doc file) or pdf files
 
 ## Installation
 
@@ -41,7 +45,7 @@ You can access to these functionalities through API :
 $('#summernote').summernote('file.fileNew');
 ```
 
-### Open file
+### Opening file
 ```javascript
 $('#summernote').summernote('file.fileOpen', '%TYPE%' );
 ```
@@ -52,7 +56,7 @@ $('#summernote').summernote('file.fileOpen', '%TYPE%' );
   <li>xml : xml file (.smn)</li>
 </ul>
 
-### Save file
+### Saving file
 ```javascript
 $('#summernote').summernote('file.fileSave', '%TYPE%' );
 ```
